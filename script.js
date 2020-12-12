@@ -26,7 +26,7 @@ var hours = Math.floor(diff / (1000 * 60 * 60));
 var days = Math.floor(diff / (1000 * 60 * 60 * 24));
 var years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
 
-years = years % 365;
+days = days % 365;
 hours = hours % 24;
 minutes = minutes % 60;
 seconds = seconds % 60;
